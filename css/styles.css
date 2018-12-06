@@ -1,7 +1,21 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* body {
     font-family: Helvetica, sans-serif;
     width: 960px;
-  }
+  } */
   
   header {
     height: 100px;
@@ -38,11 +52,37 @@ body {
   }
   
   main ul li {
-  //  border: 1px solid red;
     display: inline-block;
     margin: 30px 30px 30px 0px; 
   }
   
   main ul li:last-child {
     margin-right: 0px;
+  }
+
+  #rowOne {
+      background-color: yellow;
+  }
+
+  #rowtwo {
+    background-color: red;
+    display: inline;
+
+  }
+
+  #imgleft {
+    float: left;
+  }
+
+  #rowThree {
+      height: 400px;
+  }
+
+  #button {
+      width: 100px;
+  }
+
+  #text {
+      width: 480px;
+      height: 400px;
   }
